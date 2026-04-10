@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'parking.parksmart1.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
