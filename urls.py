@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('parking.parking.urls')), # This connects your 'parking' app to the main site
+    path('', include('urls')), # This connects your 'parking' app to the main site
 ]
